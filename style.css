@@ -1,0 +1,48 @@
+.form-group {
+  margin: 0.3rem;
+  display: flex;
+  flex-direction: column;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+input {
+  width: 30%;
+  padding: 0.2rem;
+  border: 1px solid #ccc;
+  font-size: medium;
+}
+
+label {
+  width: 50%;
+  padding: 0.2rem;
+  font-size: medium;
+}
+
+input.error {
+  border-color: #e74c3c;
+}
+
+input.success {
+  border-color: #2ecc71;
+}
+
+.error {
+  color: #e74c3c;
+  font-size: 0.85rem;
+  height: 1rem;
+}
+
+button{
+  margin-left: 0.3rem;
+  padding: 0.2rem;
+  background-color: rgb(9, 143, 148);
+  border-color: rgb(9, 143, 148);
+  color: white;
+  border-radius: 5px;
+}
+
+button:hover {
+ background-color: white;
+  border-color: rgb(9, 143, 148);
+  color: rgb(9, 143, 148);
+}
